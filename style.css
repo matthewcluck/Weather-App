@@ -1,0 +1,80 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(49, 39, 39);
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#place {
+    margin: 20px;
+    margin-top: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(255, 255, 255, 0.573);
+    font-size: 75px;
+    font-weight: bolder;
+}
+
+#box {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 250px;
+    border: 4px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.573);
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+#temperature {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(255, 255, 255, 0.573);
+    font-size: 75px;
+    font-weight: bolder;
+}
+
+#weathertype {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(255, 255, 255, 0.573);
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#wind {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(255, 255, 255, 0.573);
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#humidity {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(255, 255, 255, 0.573);
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#find {
+    margin-top: 20px;
+}
+
+#findlabel {
+    margin-top: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(255, 255, 255, 0.767);
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
